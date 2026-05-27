@@ -1,0 +1,296 @@
+2026-05-11 19:13:46 INFO    data | [SPY] 2514 bars cached
+2026-05-11 19:13:46 INFO    data | [QQQ] 2514 bars cached
+2026-05-11 19:13:46 INFO    data | [IWM] 2514 bars cached
+2026-05-11 19:13:47 INFO    data | [AAPL] 2514 bars cached
+2026-05-11 19:13:47 INFO    data | [MSFT] 2514 bars cached
+2026-05-11 19:13:47 INFO    data | [GOOGL] 2514 bars cached
+2026-05-11 19:13:47 INFO    data | [AMZN] 2514 bars cached
+2026-05-11 19:13:48 INFO    data | [META] 2514 bars cached
+2026-05-11 19:13:48 INFO    data | [NVDA] 2514 bars cached
+2026-05-11 19:13:49 INFO    data | [AMD] 2514 bars cached
+2026-05-11 19:13:49 INFO    data | [JNJ] 2514 bars cached
+2026-05-11 19:13:49 INFO    data | [PG] 2514 bars cached
+2026-05-11 19:13:50 INFO    data | [KO] 2514 bars cached
+2026-05-11 19:13:50 INFO    data | [JPM] 2514 bars cached
+2026-05-11 19:13:51 INFO    data | [V] 2514 bars cached
+2026-05-11 19:13:51 INFO    data | [MA] 2514 bars cached
+2026-05-11 19:13:52 WARNING risk | Losing streak: 4 losses. Pausing new entries for 5 bars.
+2026-05-11 19:13:52 WARNING risk | Losing streak: 5 losses. Pausing new entries for 5 bars.
+2026-05-11 19:13:52 WARNING risk | Losing streak: 6 losses. Pausing new entries for 5 bars.
+2026-05-11 19:13:52 WARNING risk | Losing streak: 4 losses. Pausing new entries for 5 bars.
+2026-05-11 19:13:53 WARNING risk | Losing streak: 4 losses. Pausing new entries for 5 bars.
+2026-05-11 19:13:53 WARNING risk | Losing streak: 4 losses. Pausing new entries for 5 bars.
+2026-05-11 19:13:53 WARNING risk | Losing streak: 4 losses. Pausing new entries for 5 bars.
+2026-05-11 19:13:53 WARNING risk | Losing streak: 5 losses. Pausing new entries for 5 bars.
+2026-05-11 19:13:54 WARNING risk | Losing streak: 4 losses. Pausing new entries for 5 bars.
+2026-05-11 19:13:54 WARNING risk | Losing streak: 5 losses. Pausing new entries for 5 bars.
+2026-05-11 19:13:55 WARNING risk | Losing streak: 4 losses. Pausing new entries for 5 bars.
+2026-05-11 19:13:55 WARNING risk | Losing streak: 5 losses. Pausing new entries for 5 bars.
+2026-05-11 19:13:55 WARNING risk | Losing streak: 6 losses. Pausing new entries for 5 bars.
+2026-05-11 19:13:56 WARNING risk | Losing streak: 4 losses. Pausing new entries for 5 bars.
+2026-05-11 19:13:58 INFO    root | No saved model. Run 'python main.py train' first to enable ML-ranked.
+2026-05-11 19:14:53 INFO    root | Training rows: 39,888
+2026-05-11 19:15:04 WARNING model | Model AUC = 0.516 is weak. Use ML as a soft tiebreaker only; do not rely on it.
+2026-05-11 19:15:04 INFO    model | Model metrics: {'train_rows': 29916, 'test_rows': 9972, 'positive_rate_train': 0.4807, 'positive_rate_test': 0.4326, 'accuracy': 0.5166, 'precision': 0.4429, 'recall': 0.4553, 'roc_auc': 0.5162, 'top_decile_win_rate': 0.501, 'top_decile_mean_return': 0.0246, 'baseline_win_rate': 0.4703}
+2026-05-11 19:15:04 INFO    model | Top feature importances:
+2026-05-11 19:15:04 INFO    model |   vol_20                 0.1323
+2026-05-11 19:15:04 INFO    model |   ema_short_vs_mid       0.1205
+2026-05-11 19:15:04 INFO    model |   ema_mid_vs_long        0.1110
+2026-05-11 19:15:04 INFO    model |   atr_pct                0.0869
+2026-05-11 19:15:04 INFO    model |   rsi                    0.0702
+2026-05-11 19:15:04 INFO    model |   ema_ratio_long         0.0648
+2026-05-11 19:15:04 INFO    model |   ema_ratio_mid          0.0610
+2026-05-11 19:15:04 INFO    model |   rel_strength_20        0.0568
+2026-05-11 19:15:04 INFO    model |   high_vol_flag          0.0414
+2026-05-11 19:15:04 INFO    model |   vol_spike              0.0407
+2026-05-11 19:15:04 WARNING root | Model AUC is below the reliability floor. Use --no-ml for the safest configuration.
+2026-05-11 19:19:15 INFO    root | Training rows: 39,888
+2026-05-11 19:19:19 WARNING model | Model AUC = 0.516 is weak. Use ML as a soft tiebreaker only; do not rely on it.
+2026-05-11 19:19:19 INFO    model | Model metrics: {'train_rows': 29916, 'test_rows': 9972, 'positive_rate_train': 0.4807, 'positive_rate_test': 0.4326, 'accuracy': 0.5166, 'precision': 0.4429, 'recall': 0.4553, 'roc_auc': 0.5162, 'top_decile_win_rate': 0.501, 'top_decile_mean_return': 0.0246, 'baseline_win_rate': 0.4703}
+2026-05-11 19:19:19 INFO    model | Top feature importances:
+2026-05-11 19:19:19 INFO    model |   vol_20                 0.1323
+2026-05-11 19:19:19 INFO    model |   ema_short_vs_mid       0.1205
+2026-05-11 19:19:19 INFO    model |   ema_mid_vs_long        0.1110
+2026-05-11 19:19:19 INFO    model |   atr_pct                0.0869
+2026-05-11 19:19:19 INFO    model |   rsi                    0.0702
+2026-05-11 19:19:19 INFO    model |   ema_ratio_long         0.0648
+2026-05-11 19:19:19 INFO    model |   ema_ratio_mid          0.0610
+2026-05-11 19:19:19 INFO    model |   rel_strength_20        0.0568
+2026-05-11 19:19:19 INFO    model |   high_vol_flag          0.0414
+2026-05-11 19:19:19 INFO    model |   vol_spike              0.0407
+2026-05-11 19:19:19 INFO    model | Model saved to logs/model.pkl
+2026-05-11 19:19:19 WARNING root | Model AUC is below the reliability floor. Use --no-ml for the safest configuration.
+2026-05-11 19:19:36 INFO    model | Model metrics: {'train_rows': 5808, 'test_rows': 1936, 'positive_rate_train': 0.5479, 'positive_rate_test': 0.5289, 'accuracy': 0.5346, 'precision': 0.5812, 'recall': 0.4297, 'roc_auc': 0.5688, 'top_decile_win_rate': 0.6495, 'top_decile_mean_return': 0.0189, 'baseline_win_rate': 0.6167}
+2026-05-11 19:19:36 INFO    model | Top feature importances:
+2026-05-11 19:19:36 INFO    model |   ema_mid_vs_long        0.1755
+2026-05-11 19:19:36 INFO    model |   vol_20                 0.1348
+2026-05-11 19:19:36 INFO    model |   ema_short_vs_mid       0.1015
+2026-05-11 19:19:36 INFO    model |   ema_ratio_long         0.0902
+2026-05-11 19:19:36 INFO    model |   ema_ratio_mid          0.0883
+2026-05-11 19:19:36 INFO    model |   atr_pct                0.0720
+2026-05-11 19:19:36 INFO    model |   ret_20                 0.0453
+2026-05-11 19:19:36 INFO    model |   rel_strength_20        0.0451
+2026-05-11 19:19:36 INFO    model |   rsi                    0.0392
+2026-05-11 19:19:36 INFO    model |   ema_ratio_short        0.0366
+2026-05-11 19:19:38 INFO    model | Model metrics: {'train_rows': 6036, 'test_rows': 2012, 'positive_rate_train': 0.5543, 'positive_rate_test': 0.3534, 'accuracy': 0.5194, 'precision': 0.3953, 'recall': 0.6793, 'roc_auc': 0.5594, 'top_decile_win_rate': 0.4653, 'top_decile_mean_return': 0.0105, 'baseline_win_rate': 0.413}
+2026-05-11 19:19:38 INFO    model | Top feature importances:
+2026-05-11 19:19:38 INFO    model |   ema_short_vs_mid       0.1305
+2026-05-11 19:19:38 INFO    model |   ema_mid_vs_long        0.1131
+2026-05-11 19:19:38 INFO    model |   ema_ratio_mid          0.1008
+2026-05-11 19:19:38 INFO    model |   ema_ratio_long         0.0948
+2026-05-11 19:19:38 INFO    model |   vol_20                 0.0874
+2026-05-11 19:19:38 INFO    model |   atr_pct                0.0846
+2026-05-11 19:19:38 INFO    model |   rel_strength_20        0.0654
+2026-05-11 19:19:38 INFO    model |   rsi                    0.0474
+2026-05-11 19:19:38 INFO    model |   ret_20                 0.0428
+2026-05-11 19:19:38 INFO    model |   ema_ratio_short        0.0364
+2026-05-11 19:19:38 WARNING risk | Losing streak: 4 losses. Pausing new entries for 5 bars.
+2026-05-11 19:19:38 WARNING risk | Losing streak: 5 losses. Pausing new entries for 5 bars.
+2026-05-11 19:19:38 WARNING risk | Losing streak: 4 losses. Pausing new entries for 5 bars.
+2026-05-11 19:19:39 WARNING model | Model AUC = 0.521 is weak. Use ML as a soft tiebreaker only; do not rely on it.
+2026-05-11 19:19:39 INFO    model | Model metrics: {'train_rows': 6024, 'test_rows': 2008, 'positive_rate_train': 0.531, 'positive_rate_test': 0.2649, 'accuracy': 0.4965, 'precision': 0.2969, 'recall': 0.6579, 'roc_auc': 0.5206, 'top_decile_win_rate': 0.1294, 'top_decile_mean_return': -0.0643, 'baseline_win_rate': 0.3003}
+2026-05-11 19:19:39 INFO    model | Top feature importances:
+2026-05-11 19:19:39 INFO    model |   ema_short_vs_mid       0.1160
+2026-05-11 19:19:39 INFO    model |   ema_mid_vs_long        0.1154
+2026-05-11 19:19:39 INFO    model |   ema_ratio_long         0.1010
+2026-05-11 19:19:39 INFO    model |   ema_ratio_mid          0.0993
+2026-05-11 19:19:39 INFO    model |   atr_pct                0.0842
+2026-05-11 19:19:39 INFO    model |   vol_20                 0.0724
+2026-05-11 19:19:39 INFO    model |   ema_ratio_short        0.0602
+2026-05-11 19:19:39 INFO    model |   rel_strength_20        0.0550
+2026-05-11 19:19:39 INFO    model |   ret_10                 0.0498
+2026-05-11 19:19:39 INFO    model |   rsi                    0.0435
+2026-05-11 19:19:40 WARNING model | Model AUC = 0.496 is weak. Use ML as a soft tiebreaker only; do not rely on it.
+2026-05-11 19:19:40 INFO    model | Model metrics: {'train_rows': 6024, 'test_rows': 2008, 'positive_rate_train': 0.4341, 'positive_rate_test': 0.6365, 'accuracy': 0.4557, 'precision': 0.6187, 'recall': 0.3772, 'roc_auc': 0.4963, 'top_decile_win_rate': 0.6667, 'top_decile_mean_return': 0.0211, 'baseline_win_rate': 0.6788}
+2026-05-11 19:19:40 INFO    model | Top feature importances:
+2026-05-11 19:19:40 INFO    model |   vol_20                 0.1364
+2026-05-11 19:19:40 INFO    model |   ema_short_vs_mid       0.1190
+2026-05-11 19:19:40 INFO    model |   atr_pct                0.1077
+2026-05-11 19:19:40 INFO    model |   ema_mid_vs_long        0.1071
+2026-05-11 19:19:40 INFO    model |   ema_ratio_mid          0.0614
+2026-05-11 19:19:40 INFO    model |   rel_strength_20        0.0596
+2026-05-11 19:19:40 INFO    model |   ema_ratio_long         0.0568
+2026-05-11 19:19:40 INFO    model |   rsi                    0.0458
+2026-05-11 19:19:40 INFO    model |   ret_10                 0.0427
+2026-05-11 19:19:40 INFO    model |   drawdown_20            0.0392
+2026-05-11 19:19:40 WARNING risk | Losing streak: 4 losses. Pausing new entries for 5 bars.
+2026-05-11 19:19:41 WARNING model | Model AUC = 0.477 is weak. Use ML as a soft tiebreaker only; do not rely on it.
+2026-05-11 19:19:41 INFO    model | Model metrics: {'train_rows': 6024, 'test_rows': 2008, 'positive_rate_train': 0.45, 'positive_rate_test': 0.5274, 'accuracy': 0.4751, 'precision': 0.5036, 'recall': 0.3267, 'roc_auc': 0.4771, 'top_decile_win_rate': 0.5075, 'top_decile_mean_return': 0.0143, 'baseline_win_rate': 0.5876}
+2026-05-11 19:19:42 INFO    model | Top feature importances:
+2026-05-11 19:19:42 INFO    model |   ema_mid_vs_long        0.1735
+2026-05-11 19:19:42 INFO    model |   atr_pct                0.1009
+2026-05-11 19:19:42 INFO    model |   rsi                    0.0835
+2026-05-11 19:19:42 INFO    model |   ema_short_vs_mid       0.0826
+2026-05-11 19:19:42 INFO    model |   ema_ratio_long         0.0823
+2026-05-11 19:19:42 INFO    model |   vol_20                 0.0773
+2026-05-11 19:19:42 INFO    model |   rel_strength_20        0.0575
+2026-05-11 19:19:42 INFO    model |   ret_20                 0.0535
+2026-05-11 19:19:42 INFO    model |   ema_ratio_short        0.0393
+2026-05-11 19:19:42 INFO    model |   ema_ratio_mid          0.0374
+2026-05-11 19:19:43 INFO    model | Model metrics: {'train_rows': 6024, 'test_rows': 2008, 'positive_rate_train': 0.4937, 'positive_rate_test': 0.497, 'accuracy': 0.5588, 'precision': 0.5527, 'recall': 0.5882, 'roc_auc': 0.5726, 'top_decile_win_rate': 0.6418, 'top_decile_mean_return': 0.0314, 'baseline_win_rate': 0.5309}
+2026-05-11 19:19:43 INFO    model | Top feature importances:
+2026-05-11 19:19:43 INFO    model |   ema_mid_vs_long        0.1821
+2026-05-11 19:19:43 INFO    model |   ema_short_vs_mid       0.0976
+2026-05-11 19:19:43 INFO    model |   vol_20                 0.0975
+2026-05-11 19:19:43 INFO    model |   rel_strength_20        0.0787
+2026-05-11 19:19:43 INFO    model |   ema_ratio_long         0.0767
+2026-05-11 19:19:43 INFO    model |   atr_pct                0.0627
+2026-05-11 19:19:43 INFO    model |   rsi                    0.0583
+2026-05-11 19:19:43 INFO    model |   ema_ratio_short        0.0492
+2026-05-11 19:19:43 INFO    model |   ema_ratio_mid          0.0482
+2026-05-11 19:19:43 INFO    model |   range_compression      0.0429
+2026-05-11 19:19:43 WARNING risk | Losing streak: 4 losses. Pausing new entries for 5 bars.
+2026-05-11 19:19:43 WARNING risk | Losing streak: 5 losses. Pausing new entries for 5 bars.
+2026-05-11 19:19:43 WARNING risk | Losing streak: 6 losses. Pausing new entries for 5 bars.
+2026-05-11 19:19:44 WARNING model | Model AUC = 0.535 is weak. Use ML as a soft tiebreaker only; do not rely on it.
+2026-05-11 19:19:44 INFO    model | Model metrics: {'train_rows': 6024, 'test_rows': 2008, 'positive_rate_train': 0.5649, 'positive_rate_test': 0.5393, 'accuracy': 0.507, 'precision': 0.5495, 'recall': 0.4765, 'roc_auc': 0.5346, 'top_decile_win_rate': 0.6766, 'top_decile_mean_return': 0.0412, 'baseline_win_rate': 0.5921}
+2026-05-11 19:19:44 INFO    model | Top feature importances:
+2026-05-11 19:19:44 INFO    model |   ema_mid_vs_long        0.1417
+2026-05-11 19:19:44 INFO    model |   ema_short_vs_mid       0.1265
+2026-05-11 19:19:44 INFO    model |   atr_pct                0.0933
+2026-05-11 19:19:44 INFO    model |   vol_20                 0.0882
+2026-05-11 19:19:44 INFO    model |   ema_ratio_long         0.0669
+2026-05-11 19:19:44 INFO    model |   rsi                    0.0600
+2026-05-11 19:19:44 INFO    model |   high_vol_flag          0.0524
+2026-05-11 19:19:44 INFO    model |   ema_ratio_mid          0.0497
+2026-05-11 19:19:44 INFO    model |   ema_ratio_short        0.0451
+2026-05-11 19:19:44 INFO    model |   ret_20                 0.0390
+2026-05-11 19:19:44 WARNING risk | Losing streak: 4 losses. Pausing new entries for 5 bars.
+2026-05-11 19:19:45 INFO    model | Model metrics: {'train_rows': 6036, 'test_rows': 2012, 'positive_rate_train': 0.5315, 'positive_rate_test': 0.5437, 'accuracy': 0.5189, 'precision': 0.5861, 'recall': 0.3921, 'roc_auc': 0.5536, 'top_decile_win_rate': 0.6832, 'top_decile_mean_return': 0.0511, 'baseline_win_rate': 0.588}
+2026-05-11 19:19:45 INFO    model | Top feature importances:
+2026-05-11 19:19:45 INFO    model |   ema_mid_vs_long        0.1351
+2026-05-11 19:19:45 INFO    model |   vol_20                 0.1048
+2026-05-11 19:19:45 INFO    model |   atr_pct                0.0942
+2026-05-11 19:19:45 INFO    model |   ema_short_vs_mid       0.0923
+2026-05-11 19:19:45 INFO    model |   ema_ratio_long         0.0608
+2026-05-11 19:19:45 INFO    model |   high_vol_flag          0.0588
+2026-05-11 19:19:45 INFO    model |   rel_strength_20        0.0548
+2026-05-11 19:19:45 INFO    model |   ema_ratio_mid          0.0526
+2026-05-11 19:19:45 INFO    model |   ema_ratio_short        0.0493
+2026-05-11 19:19:45 INFO    model |   rsi                    0.0416
+2026-05-11 19:19:45 WARNING risk | Losing streak: 4 losses. Pausing new entries for 5 bars.
+2026-05-11 19:19:47 INFO    model | Model metrics: {'train_rows': 6036, 'test_rows': 2012, 'positive_rate_train': 0.525, 'positive_rate_test': 0.4185, 'accuracy': 0.5497, 'precision': 0.4571, 'recall': 0.405, 'roc_auc': 0.5634, 'top_decile_win_rate': 0.5149, 'top_decile_mean_return': 0.01, 'baseline_win_rate': 0.4612}
+2026-05-11 19:19:47 INFO    model | Top feature importances:
+2026-05-11 19:19:47 INFO    model |   ema_mid_vs_long        0.1318
+2026-05-11 19:19:47 INFO    model |   ema_short_vs_mid       0.1136
+2026-05-11 19:19:47 INFO    model |   vol_20                 0.0921
+2026-05-11 19:19:47 INFO    model |   rsi                    0.0883
+2026-05-11 19:19:47 INFO    model |   atr_pct                0.0740
+2026-05-11 19:19:47 INFO    model |   ema_ratio_long         0.0620
+2026-05-11 19:19:47 INFO    model |   rel_strength_20        0.0563
+2026-05-11 19:19:47 INFO    model |   ema_ratio_mid          0.0531
+2026-05-11 19:19:47 INFO    model |   ret_20                 0.0414
+2026-05-11 19:19:47 INFO    model |   vol_spike              0.0394
+2026-05-11 19:19:47 WARNING risk | Losing streak: 4 losses. Pausing new entries for 5 bars.
+2026-05-11 19:19:48 INFO    model | Model metrics: {'train_rows': 6024, 'test_rows': 2008, 'positive_rate_train': 0.4668, 'positive_rate_test': 0.1703, 'accuracy': 0.374, 'precision': 0.2, 'recall': 0.8918, 'roc_auc': 0.7016, 'top_decile_win_rate': 0.4826, 'top_decile_mean_return': -0.0059, 'baseline_win_rate': 0.2007}
+2026-05-11 19:19:49 INFO    model | Top feature importances:
+2026-05-11 19:19:49 INFO    model |   ret_20                 0.1049
+2026-05-11 19:19:49 INFO    model |   ema_short_vs_mid       0.0848
+2026-05-11 19:19:49 INFO    model |   ema_mid_vs_long        0.0821
+2026-05-11 19:19:49 INFO    model |   rel_strength_20        0.0759
+2026-05-11 19:19:49 INFO    model |   atr_pct                0.0748
+2026-05-11 19:19:49 INFO    model |   vol_20                 0.0738
+2026-05-11 19:19:49 INFO    model |   ema_ratio_mid          0.0638
+2026-05-11 19:19:49 INFO    model |   rsi                    0.0633
+2026-05-11 19:19:49 INFO    model |   ema_ratio_long         0.0554
+2026-05-11 19:19:49 INFO    model |   ema_ratio_short        0.0517
+2026-05-11 19:19:50 WARNING model | Model AUC = 0.504 is weak. Use ML as a soft tiebreaker only; do not rely on it.
+2026-05-11 19:19:50 INFO    model | Model metrics: {'train_rows': 6036, 'test_rows': 2012, 'positive_rate_train': 0.3655, 'positive_rate_test': 0.3106, 'accuracy': 0.5954, 'precision': 0.3165, 'recall': 0.2608, 'roc_auc': 0.5036, 'top_decile_win_rate': 0.3614, 'top_decile_mean_return': 0.0097, 'baseline_win_rate': 0.3529}
+2026-05-11 19:19:50 INFO    model | Top feature importances:
+2026-05-11 19:19:50 INFO    model |   ema_mid_vs_long        0.1341
+2026-05-11 19:19:50 INFO    model |   vol_20                 0.1054
+2026-05-11 19:19:50 INFO    model |   ret_20                 0.0957
+2026-05-11 19:19:50 INFO    model |   atr_pct                0.0850
+2026-05-11 19:19:50 INFO    model |   rel_strength_20        0.0839
+2026-05-11 19:19:50 INFO    model |   ema_ratio_long         0.0774
+2026-05-11 19:19:50 INFO    model |   ema_short_vs_mid       0.0703
+2026-05-11 19:19:50 INFO    model |   rsi                    0.0509
+2026-05-11 19:19:50 INFO    model |   ema_ratio_short        0.0507
+2026-05-11 19:19:50 INFO    model |   ema_ratio_mid          0.0444
+2026-05-11 19:19:52 WARNING model | Model AUC = 0.520 is weak. Use ML as a soft tiebreaker only; do not rely on it.
+2026-05-11 19:19:52 INFO    model | Model metrics: {'train_rows': 6012, 'test_rows': 2004, 'positive_rate_train': 0.3002, 'positive_rate_test': 0.6193, 'accuracy': 0.4566, 'precision': 0.7794, 'recall': 0.1708, 'roc_auc': 0.5196, 'top_decile_win_rate': 0.7811, 'top_decile_mean_return': 0.068, 'baseline_win_rate': 0.6602}
+2026-05-11 19:19:52 INFO    model | Top feature importances:
+2026-05-11 19:19:52 INFO    model |   ema_ratio_long         0.1236
+2026-05-11 19:19:52 INFO    model |   vol_20                 0.1159
+2026-05-11 19:19:52 INFO    model |   ema_mid_vs_long        0.1157
+2026-05-11 19:19:52 INFO    model |   ema_short_vs_mid       0.1115
+2026-05-11 19:19:52 INFO    model |   atr_pct                0.0942
+2026-05-11 19:19:52 INFO    model |   ema_ratio_mid          0.0539
+2026-05-11 19:19:52 INFO    model |   market_trend           0.0454
+2026-05-11 19:19:52 INFO    model |   rsi                    0.0444
+2026-05-11 19:19:52 INFO    model |   rel_strength_20        0.0431
+2026-05-11 19:19:52 INFO    model |   ret_20                 0.0398
+2026-05-11 19:19:54 WARNING model | Model AUC = 0.498 is weak. Use ML as a soft tiebreaker only; do not rely on it.
+2026-05-11 19:19:54 INFO    model | Model metrics: {'train_rows': 6012, 'test_rows': 2004, 'positive_rate_train': 0.3945, 'positive_rate_test': 0.3488, 'accuracy': 0.5424, 'precision': 0.2951, 'recall': 0.2246, 'roc_auc': 0.4978, 'top_decile_win_rate': 0.2388, 'top_decile_mean_return': -0.0221, 'baseline_win_rate': 0.3892}
+2026-05-11 19:19:54 INFO    model | Top feature importances:
+2026-05-11 19:19:54 INFO    model |   ema_ratio_long         0.1562
+2026-05-11 19:19:54 INFO    model |   ema_short_vs_mid       0.1526
+2026-05-11 19:19:54 INFO    model |   ema_mid_vs_long        0.1411
+2026-05-11 19:19:54 INFO    model |   vol_20                 0.1013
+2026-05-11 19:19:54 INFO    model |   atr_pct                0.0658
+2026-05-11 19:19:54 INFO    model |   ema_ratio_mid          0.0656
+2026-05-11 19:19:54 INFO    model |   ret_20                 0.0366
+2026-05-11 19:19:54 INFO    model |   ret_10                 0.0356
+2026-05-11 19:19:54 INFO    model |   rsi                    0.0331
+2026-05-11 19:19:54 INFO    model |   rel_strength_20        0.0313
+2026-05-11 19:19:55 INFO    model | Model metrics: {'train_rows': 6024, 'test_rows': 2008, 'positive_rate_train': 0.4587, 'positive_rate_test': 0.507, 'accuracy': 0.5388, 'precision': 0.568, 'recall': 0.3772, 'roc_auc': 0.5699, 'top_decile_win_rate': 0.602, 'top_decile_mean_return': 0.051, 'baseline_win_rate': 0.5598}
+2026-05-11 19:19:56 INFO    model | Top feature importances:
+2026-05-11 19:19:56 INFO    model |   ema_mid_vs_long        0.1352
+2026-05-11 19:19:56 INFO    model |   vol_20                 0.1333
+2026-05-11 19:19:56 INFO    model |   ema_short_vs_mid       0.1195
+2026-05-11 19:19:56 INFO    model |   ema_ratio_long         0.0841
+2026-05-11 19:19:56 INFO    model |   atr_pct                0.0812
+2026-05-11 19:19:56 INFO    model |   ret_20                 0.0674
+2026-05-11 19:19:56 INFO    model |   ema_ratio_mid          0.0551
+2026-05-11 19:19:56 INFO    model |   rel_strength_20        0.0484
+2026-05-11 19:19:56 INFO    model |   drawdown_20            0.0409
+2026-05-11 19:19:56 INFO    model |   rsi                    0.0358
+2026-05-11 19:19:56 WARNING risk | Losing streak: 4 losses. Pausing new entries for 5 bars.
+2026-05-11 19:19:56 WARNING risk | Losing streak: 5 losses. Pausing new entries for 5 bars.
+2026-05-11 19:19:56 WARNING risk | Losing streak: 6 losses. Pausing new entries for 5 bars.
+2026-05-11 19:19:57 INFO    model | Model metrics: {'train_rows': 6024, 'test_rows': 2008, 'positive_rate_train': 0.5013, 'positive_rate_test': 0.4158, 'accuracy': 0.5652, 'precision': 0.481, 'recall': 0.5772, 'roc_auc': 0.5792, 'top_decile_win_rate': 0.4776, 'top_decile_mean_return': 0.01, 'baseline_win_rate': 0.4597}
+2026-05-11 19:19:57 INFO    model | Top feature importances:
+2026-05-11 19:19:57 INFO    model |   ema_mid_vs_long        0.2220
+2026-05-11 19:19:57 INFO    model |   vol_20                 0.1427
+2026-05-11 19:19:57 INFO    model |   ema_ratio_long         0.1048
+2026-05-11 19:19:57 INFO    model |   atr_pct                0.0948
+2026-05-11 19:19:57 INFO    model |   ema_short_vs_mid       0.0549
+2026-05-11 19:19:57 INFO    model |   rel_strength_20        0.0545
+2026-05-11 19:19:57 INFO    model |   ema_ratio_mid          0.0517
+2026-05-11 19:19:57 INFO    model |   ret_20                 0.0420
+2026-05-11 19:19:57 INFO    model |   rsi                    0.0379
+2026-05-11 19:19:57 INFO    model |   ema_ratio_short        0.0338
+2026-05-11 19:44:10 WARNING paper_trade | Loaded model is not reliable enough — running rules-only
+2026-05-11 19:44:10 INFO    paper_trade | DAILY SUMMARY  equity=$100,000.00  open=0  peak=$100,000.00  streak=0
+2026-05-11 19:46:27 WARNING paper_trade | Loaded model is not reliable enough — running rules-only
+2026-05-11 19:46:27 INFO    paper_trade | ----------------------------------------------------------------------
+2026-05-11 19:46:27 INFO    paper_trade | DAILY SUMMARY  equity=$100,000.00  open=0  peak=$100,000.00  streak=0
+2026-05-11 19:48:11 WARNING paper_trade | Loaded model is not reliable enough — running rules-only
+2026-05-11 19:48:11 INFO    paper_trade | ----------------------------------------------------------------------
+2026-05-11 19:48:11 INFO    paper_trade | DAILY SUMMARY  equity=$100,000.00  open=0  peak=$100,000.00  streak=0
+2026-05-11 19:48:11 INFO    paper_trade | ----------------------------------------------------------------------
+2026-05-11 19:51:03 INFO    model | Model loaded from logs/model.pkl
+2026-05-11 19:51:03 WARNING paper_trade | Loaded model is not reliable enough — running rules-only
+2026-05-11 19:51:03 INFO    paper_trade | ----------------------------------------------------------------------
+2026-05-11 19:51:03 INFO    paper_trade | DAILY SUMMARY  equity=$100,000.00  open=0  peak=$100,000.00  streak=0
+2026-05-11 19:51:03 INFO    paper_trade | ----------------------------------------------------------------------
+2026-05-12 13:23:04 INFO    model | Model loaded from logs/model.pkl
+2026-05-12 13:23:04 WARNING paper_trade | Loaded model is not reliable enough — running rules-only
+2026-05-12 13:23:04 INFO    paper_trade | ----------------------------------------------------------------------
+2026-05-12 13:23:04 INFO    paper_trade | DAILY SUMMARY  equity=$100,000.00  open=0  peak=$100,000.00  streak=0
+2026-05-12 13:23:04 INFO    paper_trade | ----------------------------------------------------------------------
+2026-05-13 12:42:45 INFO    model | Model loaded from logs/model.pkl
+2026-05-13 12:42:45 WARNING paper_trade | Loaded model is not reliable enough — running rules-only
+2026-05-13 12:42:45 INFO    paper_trade | ----------------------------------------------------------------------
+2026-05-13 12:42:45 INFO    paper_trade | DAILY SUMMARY  equity=$100,000.00  open=0  peak=$100,000.00  streak=0
+2026-05-13 12:42:45 INFO    paper_trade | ----------------------------------------------------------------------
+2026-05-14 10:55:40 INFO    model | Model loaded from logs/model.pkl
+2026-05-14 10:55:40 WARNING paper_trade | Loaded model is not reliable enough — running rules-only
+2026-05-14 10:55:40 INFO    paper_trade | ----------------------------------------------------------------------
+2026-05-14 10:55:40 INFO    paper_trade | DAILY SUMMARY  equity=$100,000.00  open=0  peak=$100,000.00  streak=0
+2026-05-14 10:55:40 INFO    paper_trade | ----------------------------------------------------------------------
+2026-05-18 15:45:40 INFO    model | Model loaded from logs/model.pkl
+2026-05-18 15:45:40 WARNING paper_trade | Loaded model is not reliable enough — running rules-only
+2026-05-18 15:45:40 INFO    paper_trade | ----------------------------------------------------------------------
+2026-05-18 15:45:40 INFO    paper_trade | DAILY SUMMARY  equity=$100,000.00  open=0  peak=$100,000.00  streak=0
+2026-05-18 15:45:40 INFO    paper_trade | ----------------------------------------------------------------------

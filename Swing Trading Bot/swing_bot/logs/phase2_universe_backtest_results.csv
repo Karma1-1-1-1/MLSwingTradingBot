@@ -1,0 +1,10 @@
+symbol,variant,Label,Total Return %,Max Drawdown %,Sharpe Ratio,Win Rate %,Total Trades,Profit Factor
+AMD,base,BASE [AMD],6.39,10.85,0.211,34.92,63,1.144
+AMD,ai_filter,AI_FILTER [AMD],25.92,1.8,1.481,75.0,20,11.548
+AMD,ai_ranked,AI_RANKED [AMD],28.28,2.34,1.388,77.78,18,14.858
+TSLA,base,BASE [TSLA],24.86,7.55,0.728,41.18,51,1.904
+TSLA,ai_filter,AI_FILTER [TSLA],36.48,1.63,1.637,94.12,17,239.278
+TSLA,ai_ranked,AI_RANKED [TSLA],42.3,1.94,1.571,93.75,16,267.696
+NFLX,base,BASE [NFLX],7.79,10.0,0.303,37.25,51,1.214
+NFLX,ai_filter,AI_FILTER [NFLX],24.52,1.67,1.704,83.33,18,8.343
+NFLX,ai_ranked,AI_RANKED [NFLX],25.45,1.27,1.647,81.25,16,10.417

@@ -1,0 +1,18 @@
+{
+  "n_windows": 15,
+  "positive_return_pct_of_windows": 66.7,
+  "median_return_pct": 3.22,
+  "median_sharpe": 0.945,
+  "median_max_drawdown_pct": -3.968,
+  "median_profit_factor": 1.787,
+  "mean_n_trades": 12.9,
+  "checks": {
+    "windows_>=3": true,
+    "pct_positive_>=60": true,
+    "median_sharpe_>0": true,
+    "median_maxdd_>=-15": true,
+    "avg_trades_>=min": true,
+    "median_pf_>1.10": true
+  },
+  "pass": true
+}

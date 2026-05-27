@@ -1,0 +1,13 @@
+{
+  "train_rows": 29916,
+  "test_rows": 9972,
+  "positive_rate_train": 0.4807,
+  "positive_rate_test": 0.4326,
+  "accuracy": 0.5166,
+  "precision": 0.4429,
+  "recall": 0.4553,
+  "roc_auc": 0.5162,
+  "top_decile_win_rate": 0.501,
+  "top_decile_mean_return": 0.0246,
+  "baseline_win_rate": 0.4703
+}

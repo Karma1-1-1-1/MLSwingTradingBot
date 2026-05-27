@@ -1,0 +1,16 @@
+{
+  "rules_only": {
+    "total_return_pct": 21.234,
+    "max_drawdown_pct": -8.764,
+    "sharpe": 0.426,
+    "n_trades": 149,
+    "win_rate_pct": 46.31,
+    "profit_factor": 1.436,
+    "profit_factor_reliable": true,
+    "avg_win_pct": 6.669,
+    "avg_loss_pct": -4.015,
+    "expectancy_pct": 0.932,
+    "longest_losing_streak": 6
+  },
+  "ml_ranked": null
+}
